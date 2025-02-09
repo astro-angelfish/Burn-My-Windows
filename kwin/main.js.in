@@ -194,7 +194,12 @@ class %EFFECT_CLASS% {
                     uniform: "uProgress",
                     from: 0.0,
                     to: 1.0
-                }
+                },
+		{
+                    type: Effect.Opacity,
+                    duration: 1,
+                    to: 0
+		}
             ]
         });
     }
